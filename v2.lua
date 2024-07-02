@@ -6,7 +6,7 @@ local localPlayer    = players.LocalPlayer
 local mouse          = localPlayer:GetMouse()
 
 local library = {
-    cheatname = "frag.pub";
+    cheatname = "woah azure.wtf???? ty for W gui ngl ily";
     colorpicking = false;
     tabbuttons = {};
     tabs = {};
