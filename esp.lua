@@ -1,3 +1,19 @@
+local ESP = {
+	Enabled = false, 
+	Color = Color3.fromRGB(255, 255, 255), 
+
+	Boxes = false, 
+
+	Names = false, 
+	Distance = false, 
+
+	Tracers = false, 
+	UnlockTracers = false, 
+
+	Objects = setmetatable({}, {__mode = "kv"}), 
+	Overrides = {}
+}
+
 local function Draw(obj, props)
 	local new = Drawing.new(obj)
 
